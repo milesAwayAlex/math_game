@@ -5,4 +5,8 @@ class Player
     @number = num
     @lives = lives
   end
+
+  def alive?
+    @lives > 0
+  end
 end
